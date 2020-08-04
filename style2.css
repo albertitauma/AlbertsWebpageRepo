@@ -1,0 +1,549 @@
+
+/*We will focus on the Ssmartphone css first*/
+
+.wrapper
+{
+    width: 100%;
+}
+
+/*this is for the title*/
+.title {text-align: center;}
+
+/*the navbar in the cell phone will not show*/
+.nav-container
+{
+    display: none;
+}
+
+/*Here is the CSS for the nav bar and nav container*/
+.ptopNavbar
+{
+    width: 100%;
+    height: 60px;
+    background-color: rgba(233, 233, 233, 0);
+    text-align: center;
+    
+}
+
+.pnav-container
+{
+    padding-bottom: 20px;
+}
+
+ /*This is where I style the ul navbar*/
+ ul
+ {
+     padding-inline-start: 0px
+ }
+
+ /*This is where I style items in the navbar*/
+ ul li 
+ {
+     list-style: none; /*This is how you take the bullets off the list items*/
+     display: inline-block; /* This makes the li next to each other*/
+     line-height: 60px;
+ }
+
+  /*This is where I style ancher tap in the items*/
+ ul li a
+ {
+     text-decoration: none; /*This gets rid of the underline*/
+     font-size: 20px;
+     font-family: Arial, Helvetica, sans-serif;
+     color: rgb(77, 77, 77);
+     padding: 0 20px;
+ }
+
+ ul li a:hover
+ {
+     color: rgb(247, 86, 86);
+ }
+  
+  
+
+/*Here is the css for the for profile pic*/
+.pic
+{
+    width: 50%;
+    max-width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.shadow-lg 
+{
+     box-shadow: 0 25px 40px 0 rgba(0, 0, 0, 0.247), 0 15px 25px 0 rgba(0,0,0,.247);
+}
+
+.rounded-full 
+ {
+    border-radius: 9999px;
+ }
+
+
+/*this is the css for the pic in section 1 */
+.Sec1pic 
+{   width: 70%;
+    padding: 0px 0px 0px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0px 15px 0 rgba(0, 0, 0, 0.151), 0 0px 15px 0 rgba(0, 0, 0, 0.151);
+}
+
+/*this is the css for the 1st section h2 and p */
+.sec1info
+{
+    width: 100%;
+}
+
+.sec1info h2
+{
+    padding: 30px 30px 20px;                    /*top right bottom left */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: rgb(49, 49, 49);
+    line-height: 44px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    text-align: center;
+}
+
+.sec1info p 
+{
+    padding: 20px 40px 20px 40px;                    /*top right bottom left */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(49, 49, 49);
+    line-height: 24px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+
+
+
+/*this is the css for the pic in section 2 */
+.Sec2pic 
+{   width: 70%;
+    padding: 0px 0px 0px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0px 15px 0 rgba(0, 0, 0, 0.151), 0 0px 15px 0 rgba(0, 0, 0, 0.151);
+}
+
+/*this is the css for the 2nd section h2 and p */
+.sec2info
+{
+    width: 100%;
+}
+
+.sec2info h2
+{
+    padding: 30px 30px 20px;                    /*top right bottom left */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: rgb(49, 49, 49);
+    line-height: 44px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    text-align: center;
+}
+
+.sec2info p 
+{
+    padding: 20px 40px 20px 40px;                    /*top right bottom left */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(49, 49, 49);
+    line-height: 24px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+
+
+/*this is the css for the pic in section 3 */
+.Sec3pic 
+{   
+    width: 70%;
+    padding: 0px 0px 0px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0px 15px 0 rgba(0, 0, 0, 0.151), 0 0px 15px 0 rgba(0, 0, 0, 0.151);
+}
+
+/*this is the css for the 2nd section h2 and p */
+.sec3info
+{
+    width: 100%;
+}
+
+.sec3info h2
+{
+    padding: 30px 30px 20px;                    /*top right bottom left */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: rgb(49, 49, 49);
+    line-height: 44px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    text-align: center;
+}
+
+.sec3info p 
+{
+    padding: 20px 40px 20px 40px;                    /*top right bottom left */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(49, 49, 49);
+    line-height: 24px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+
+/*Here is the style for the progess bars*/
+/* https://www.youtube.com/watch?v=3l4TQyYgOg4 */
+.skills{
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    width: 90%; /* we are gonna change this width for the larger screens*/
+    max-width: 500px;
+    margin: 60px auto;
+    color: rgb(53, 53, 53);
+}
+
+.skills h3{
+    margin-block-end: .35em;
+    font-weight: lighter;
+}
+
+.skills li{
+    margin: 20px 0;
+}
+
+.bar{
+    background: #353b48;
+    display: block;
+    height: 10px;
+    border: 0px solid rgba(0,0,0,0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #2187e7;
+}
+
+.bar span{
+    height: 10px;
+    float: left;
+    background-color: #2187e7;
+}
+
+.html{
+    width: 80%;
+    animation: html 9s;
+}
+
+.css {
+    width: 70%;
+    animation: css 9s;
+}
+
+.java {
+    width: 70%;
+    animation: java 9s;
+}
+
+.sql {
+    width: 50%;
+    animation: sql 9s;
+}
+
+.aws {
+    width: 28%;
+    animation: sql 9s;
+}
+
+@keyframes html
+{
+    0%{ width: 0%;}
+    100%{ width: 90%;}
+}
+
+@keyframes css
+{
+    0%{ width: 0%;}
+    100%{ width: 70%;}
+}
+
+@keyframes java
+{
+    0%{ width: 0%;}
+    100%{ width: 70%;}
+}
+
+@keyframes sql
+{
+    0%{ width: 0%;}
+    100%{ width: 50%;}
+}
+
+@keyframes aws
+{
+    0%{ width: 0%;}
+    100%{ width: 28%;}
+}
+
+
+
+
+/*------------------------------------------------------------ */
+     /* Here is the tablets CSS */
+     @media only screen and (min-width: 768px) 
+     {
+        .wrapper
+        {
+            margin: 0 auto;
+            width: 85%;
+        }
+        
+        /*this is for the title*/
+        .title 
+        {
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .pic
+        {
+            width: 50%;
+            max-width: 250px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+
+        /*the navbar in the cell phone will not show*/
+        .nav-container
+        {
+            display: block;
+            padding-bottom: 20px;
+            padding-top: 20px;
+        }
+        .topNavbar
+        {
+            width: 100%;
+            height: 70px;
+            background-color: rgb(204, 204, 204);
+            box-shadow: 0 5px 40px 0 rgba(0, 0, 0, 0.13), 0 5px 25px 0 rgba(0, 0, 0, 0.13);
+            text-align: center;
+        }
+     
+         /*This is where I style the ul navbar*/
+         ul
+         {
+         }
+     
+         /*This is where I style items in the navbar*/
+         ul li 
+         {
+             list-style: none; /*This is how you take the bullets of the list items*/
+             display: inline-block; /* This makes the li next to each other*/
+             line-height: 70px;
+         }
+     
+          /*This is where I style ancher tap in the items*/
+         ul li a
+         {
+             text-decoration: none; /*This gets rid of the underline*/
+             font-size: 20px;
+             font-family: Arial, Helvetica, sans-serif;
+             color: rgb(77, 77, 77);
+             padding: 0 30px;
+         }
+     
+         ul li a:hover
+         {
+             color: rgb(247, 86, 86);
+         }
+     
+        
+        /*Here is the CSS for the cell nav bar it will not show in tablet mode*/
+        .ptopNavbar
+        {
+            display: none;
+        }
+
+
+        /*this is the css for the pic in section 1 */
+        .Sec1pic 
+        {   padding-top: 0px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 70%;
+        }
+
+        .Sec2pic 
+        {   padding-top: 0px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 70%;
+        }
+
+        .sec1info h2
+        {
+            /*padding: 0px 0px 0px;
+            margin-block-start: 0.53em;
+            margin-block-end: 1px; */
+        }
+
+        .sec1info p
+        {
+            /*padding: 1px 0px 0px;
+             margin-block-start: 0px;
+            margin-block-end: 0px; */
+        }
+
+
+
+        /*------------------------------------------------------------ */
+        /* Here is the full desktop screen CSS */
+        @media only screen and (min-width: 1000px) 
+        {
+            .wrapper
+            {
+                margin: 0 auto;
+                max-width: 60%;
+                min-width: 900px;
+                
+            }
+
+            /*Here is the css for the for profile pic*/
+            .pic
+            {
+                width: 50%;
+                max-width: 300px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            /*this is the css for the 1st section h2 and p */
+            .sec1info
+            {
+                width: 100%;
+                height: 400px;
+                max-height: 800px;
+                padding-bottom: 50px;
+                border: 5px solid rgba(0, 0, 0, 0);
+            }
+
+
+             /*this is the css for the pic in section 1 */
+            .Sec1pic 
+            {   padding-top: 0px;
+                padding-bottom: 0px;
+                margin-left: auto;
+                margin-right: auto;
+                max-width: 33%;
+                min-width: 300px;
+                display: block;
+                float: left;
+            }
+
+
+            .sec1info h2
+            {
+                padding: 20px 0px 20px 15%;                    /*top right bottom left */
+                margin-block-start: 0em;
+                margin-block-end: 1px;
+                text-align: left;
+            }
+
+            .sec1info p
+            {
+                padding: 20px 3% 0px 40%;
+            }
+
+            /*this is the css for the 2nd section h2 and p */
+            /* this is the css for the pic in section 2 */
+             .sec2info
+             {
+                width: 100%;
+                height: 400px;
+                max-height: 800px;
+                padding-bottom: 50px;
+                border: 5px solid rgba(0, 0, 0, 0);
+             }
+
+
+            .Sec2pic 
+            {   padding-top: 0px;
+                padding-bottom: 0px;
+                margin-left: auto;
+                margin-right: auto;
+                max-width: 33%;
+                min-width: 300px;
+                display: block;
+                float: right;
+            }
+
+           
+
+            .sec2info h2
+            {
+                padding: 5px 15% 20px 0%;                    /*top right bottom left */
+                margin-block-start: 0em;
+                margin-block-end: 1px;
+                text-align: right;
+            }
+
+            .sec2info p
+            {padding: 20px 40% 0px 3%;}
+
+
+            /*this is the css for the 3rd section h2 and p */
+            /* this is the css for the pic in section 3 */
+            .sec3info
+            {
+               width: 100%;
+               height: 400px;
+               max-height: 800px;
+               padding-bottom: 50px;
+               border: 5px solid rgba(0, 0, 0, 0.479);
+            }
+
+           .Sec3pic 
+           {    padding-top: 0px;
+                padding-bottom: 0px;
+                margin-left: auto;
+                margin-right: auto;
+                max-width: 33%;
+                min-width: 300px;
+                display: block;
+                float: left;
+           }
+
+           .sec3info h2
+           {
+                padding: 20px 0px 20px 15%;                    /*top right bottom left */
+                margin-block-start: 0em;
+                margin-block-end: 1px;
+                text-align: left;
+           }
+
+           .sec3info p
+           {padding: 20px 3% 0px 40%;}
+
+           .skills h1 
+           { text-align: center;}
+
+        }
+
+     }
