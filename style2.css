@@ -167,9 +167,10 @@
 
 
 /*this is the css for the pic in section 3 */
-.Sec3pic 
+.ex1pic 
 {   
     width: 70%;
+    max-width: 300px;
     padding: 0px 0px 0px 0px;
     display: block;
     margin-left: auto;
@@ -178,12 +179,12 @@
 }
 
 /*this is the css for the 2nd section h2 and p */
-.sec3info
+.ex1info
 {
     width: 100%;
 }
 
-.sec3info h2
+.ex1info h2
 {
     padding: 30px 30px 20px;                    /*top right bottom left */
     font-family: Arial, Helvetica, sans-serif;
@@ -195,7 +196,7 @@
     text-align: center;
 }
 
-.sec3info p 
+.ex1info p 
 {
     padding: 20px 40px 20px 40px;                    /*top right bottom left */
     font-family: Arial, Helvetica, sans-serif;
@@ -205,6 +206,69 @@
     margin-block-start: 0px;
     margin-block-end: 0px;
 }
+
+
+/*this is the css for the pic ex2*/
+/*this is the css for ex2*/
+.ex2pic 
+{   
+    width: 70%;
+    max-width: 300px;
+    padding: 0px 0px 0px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0px 15px 0 rgba(0, 0, 0, 0.151), 0 0px 15px 0 rgba(0, 0, 0, 0.151);
+}
+
+.ex2info
+{
+    width: 100%;
+}
+
+.ex2info p 
+{
+    padding: 20px 40px 20px 40px;                    /*top right bottom left */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(49, 49, 49);
+    line-height: 24px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+
+/*this is the css for ex3*/
+/*this is the css for the pic in ex3*/
+.ex3pic 
+{   
+    width: 70%;
+    max-width: 300px;
+    padding: 0px 0px 0px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0px 15px 0 rgba(0, 0, 0, 0.151), 0 0px 15px 0 rgba(0, 0, 0, 0.151);
+}
+
+.ex3info
+{
+    width: 100%;
+}
+
+.ex3info p 
+{
+    padding: 20px 40px 20px 40px;                    /*top right bottom left */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(49, 49, 49);
+    line-height: 24px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+
+
 
 
 /*Here is the style for the progess bars*/
@@ -220,6 +284,7 @@
 
 .skills h1{
     margin-block-start: 0.2em;
+    text-align: center;
 }
 
 
@@ -314,7 +379,140 @@
 }
 
 
+/*--------------*/
+.cert1pic 
+{   width: 50%;
+    padding: 0px 0px 0px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+/*this is the css for the 1st section h2 and p */
+.cert1info
+{
+    width: 100%;
+}
+
+.cert1info h2
+{
+    padding: 30px 30px 20px;                    /*top right bottom left */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: rgb(49, 49, 49);
+    line-height: 44px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    text-align: center;
+}
+
+.cert1info p 
+{
+    padding: 1px 8% 0px 8%;                    /*top right bottom left */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(49, 49, 49);
+    line-height: 24px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+/*----------------*/
+.cert2info
+{
+    width: 100%;
+}
+
+.cert2pic 
+{   width: 50%;
+    padding: 0px 0px 0px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.cert2info p 
+{
+    padding: 1px 8% 0px 8%;                    /*top right bottom left */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(49, 49, 49);
+    line-height: 24px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+
+
+
+----------------
+/*--------------*/
+.cert1pic 
+{   width: 50%;
+    padding: 0px 0px 0px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*this is the css for the 1st section h2 and p */
+.cert1info
+{
+    width: 100%;
+}
+
+.cert1info h2
+{
+    padding: 30px 30px 20px;                    /*top right bottom left */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: rgb(49, 49, 49);
+    line-height: 44px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    text-align: center;
+}
+
+.cert1info p 
+{
+    padding: 1px 8% 0px 8%;                    /*top right bottom left */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(49, 49, 49);
+    line-height: 24px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+/*----------------*/
+.coninfo
+{
+    width: 100%;
+}
+
+.coninfo h2
+{
+    padding: 30px 30px 20px;                    /*top right bottom left */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: rgb(49, 49, 49);
+    line-height: 44px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    text-align: center;
+}
+.coninfo p 
+{
+    padding: 1px 8% 0px 8%;                    /*top right bottom left */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(49, 49, 49);
+    line-height: 24px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    text-align: left;
+}
 
 /*------------------------------------------------------------ */
      /* Here is the tablets CSS */
@@ -510,8 +708,6 @@
                 float: right;
             }
 
-           
-
             .sec2info h2
             {
                 padding: 0px 7% 20px 0%;                    /*top right bottom left */
@@ -550,42 +746,143 @@
             { padding:  10% 1% 10px 50% }                     /*top right bottom left */
 
 
-
-
             /*this is the css for the 3rd section h2 and p */
             /* this is the css for the pic in section 3 */
-            .sec3info
+            .ex1info
             {
-               width: 100%;
-               height: 400px;
-               max-height: 800px;
-               padding-bottom: 50px;
-               border: 5px solid rgba(0, 0, 0, 0.479);
+                width: 100%;
+                height: 490px;
+                max-height: 250px;
+                padding-bottom: 0px;
+                border: 5px solid rgba(0, 0, 0, 0);
             }
 
-           .Sec3pic 
+           .ex1pic 
            {    padding-top: 0px;
                 padding-bottom: 0px;
                 margin-left: auto;
                 margin-right: auto;
-                max-width: 33%;
-                min-width: 300px;
+                max-width: 30%;
+                min-width: 30%;
                 display: block;
-                
+                float: right;
            }
 
-           .sec3info h2
+           .ex1info h2
+           {padding: 10px 30px 0px;}                   /*top right bottom left */
+
+           .ex1info p
+           {padding: 4% 35% 0px 5%;}
+
+           .ex2info
            {
-                padding: 20px 0px 20px 15%;                    /*top right bottom left */
+               width: 100%;
+               height: 490px;
+               max-height: 160px;
+               padding-bottom: 0px;
+               border: 5px solid rgba(0, 0, 0, 0);
+           }
+
+          .ex2pic 
+          {    padding-top: 0px;
+               padding-bottom: 0px;
+               margin-left: auto;
+               margin-right: auto;
+               max-width: 30%;
+               min-width: 30%;
+               display: block;
+               float: left;
+          }
+
+          .ex2info p
+          {padding: 4% 5% 0px 35%;}                   /*top right bottom left */
+
+          .ex3info
+            {
+                width: 100%;
+                height: 490px;
+                max-height: 200px;
+                padding-bottom: 0px;
+                border: 5px solid rgba(0, 0, 0, 0);
+            }
+
+           .ex3pic 
+           {    padding-top: 0px;
+                padding-bottom: 0px;
+                margin-left: auto;
+                margin-right: auto;
+                max-width: 30%;
+                min-width: 30%;
+                display: block;
+                float: right;
+           }
+
+           .ex3info h2
+           {padding: 10px 30px 0px;}                   /*top right bottom left */
+
+           .ex3info p
+           {padding: 4% 35% 0px 5%;}
+
+
+            /*---------------*/
+            .cert1info
+            {
+                width: 100%;
+                height: 350px;
+                max-height: 500px;
+                padding-bottom: 0px;
+                border: 5px solid rgba(0, 0, 0, 0);
+            }
+
+            .cert1pic 
+            {   
+                padding: 0px 0px 0px 5%;                    /*top right bottom left */
+                margin-left: auto;
+                margin-right: auto;
+                max-width: 8%;
+                min-width: 240px;
+                display: block;
+                float: left;
+            }
+
+            .cert1info h2
+            {
+                padding: 20px 0px 20px 5%;                    /*top right bottom left */
                 margin-block-start: 0em;
                 margin-block-end: 1px;
-                
-           }
+                text-align: left;
+            }
 
-           .sec3info p
-           {padding: 20px 3% 0px 40%;}
+            .cert1info p
+            {
+                padding: 6% 3% 10px 35%;
+            }
 
+            /*-----------------------------*/
+            .cert2info
+            {
+                width: 100%;
+                height: 270px;
+                max-height: 400px;
+                padding-bottom: 0px;
+                border: 5px solid rgba(0, 0, 0, 0);
+            }
 
+            .cert2pic 
+            {   
+                padding: 0px 0px 0px 4%;                    /*top right bottom left */
+                margin-left: auto;
+                margin-right: auto;
+                max-width: 10%;
+                min-width: 258px;
+                display: block;
+                float: left;
+            }
+
+            .cert2info p
+            {
+                padding: 6% 3% 10px 35%;
+            }
         }
 
      }
