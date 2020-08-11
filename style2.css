@@ -237,6 +237,69 @@
     margin-block-end: 0px;
 }
 
+/*this is the css for ex2 part two for screenshots*/
+.ex2info2
+{
+    width: 100%;
+}
+
+.ex2info2 p 
+{
+    padding: 20px 40px 20px 40px;                    /*top right bottom left */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(49, 49, 49);
+    line-height: 24px;
+    margin-block-start: 0px;
+    margin-block-end: 20px;
+    text-align: center;
+}
+
+.ex2info2 .p2
+{
+    padding: 20px 40px 5px 40px;                    /*top right bottom left */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(49, 49, 49);
+    line-height: 24px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    text-align: center;
+}
+
+
+.sc
+{   
+    width: 70%;
+    max-width: 350px;
+    padding: 0px 0px 0px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    box-shadow: 0 0px 15px 0 rgba(0, 0, 0, 0.151), 0 0px 15px 0 rgba(0, 0, 0, 0.151);
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;       /*top right bottom left */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: cadetblue;
+    box-shadow: 0 0px 15px 0 rgba(0, 0, 0, 0.151), 0 0px 15px 0 rgba(0, 0, 0, 0.151);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .button1 
+  {}
 
 /*this is the css for ex3*/
 /*this is the css for the pic in ex3*/
@@ -796,6 +859,34 @@
 
           .ex2info p
           {padding: 4% 5% 0px 35%;}                   /*top right bottom left */
+
+
+          .ex2info2 
+          {
+            padding-top: 50px;
+          }
+
+          .sc
+            {   
+                width: 70%;
+                max-width: 350px;
+                display: inline-block;
+                box-shadow: 0 0px 15px 0 rgba(0, 0, 0, 0.151), 0 0px 15px 0 rgba(0, 0, 0, 0.151);
+            }
+
+            .ex2info2 .sc1
+            {
+                margin: 10px 1% 25px 1%;                   /*top right bottom left */
+            }
+            .ex2info2 .sc2
+            {
+                margin: 10px 1% 25px 1%;                   /*top right bottom left */
+            }
+
+            .ex2info2 .sc3
+            {
+                margin: 10px 1% 25px 1%;                   /*top right bottom left */
+            }
 
           .ex3info
             {
