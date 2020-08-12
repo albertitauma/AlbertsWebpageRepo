@@ -243,6 +243,10 @@
     width: 100%;
 }
 
+.ex2info2 a {
+    text-decoration: none;
+}
+
 .ex2info2 p 
 {
     padding: 20px 40px 20px 40px;                    /*top right bottom left */
